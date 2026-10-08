@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "BusPoint",
+    "slug": "buspoint",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.buspoint.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1162c4",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "br.com.buspoint.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "BusPoint"
+    },
+    "scheme": "buspoint",
+    "backgroundColor": "#f3f7fc",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#021528"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O BusPoint usa suas fotos para definir a imagem do perfil."
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
